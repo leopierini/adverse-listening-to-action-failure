@@ -1,0 +1,100 @@
+{
+  "h1": {
+    "outcome": "tsa",
+    "diagnostics": {
+      "model": "h1",
+      "outcome": "tsa",
+      "rows_in": 86944,
+      "dropped_row_filter": 15808,
+      "dropped_null_outcome": 0,
+      "dropped_null_wer": 0,
+      "wer_clamped": 2775,
+      "dropped_hallucination": 0,
+      "rows_out": 71136
+    },
+    "formula": "outcome ~ wer + has_critical_error + has_function_error + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)",
+    "error": null,
+    "contrast": {
+      "expression": "has_critical_error - has_function_error = 0",
+      "effect": 0.583110320182856,
+      "std_err": 0.13957854712038714,
+      "statistic": 4.177650020098867,
+      "p_value": 2.9453639344792434e-05
+    },
+    "joint_test": null,
+    "warnings": [],
+    "summary_file": "results/analysis/fits/h1_tsa.txt"
+  },
+  "h2": {
+    "outcome": "ees",
+    "diagnostics": {
+      "model": "h2",
+      "outcome": "ees",
+      "rows_in": 86944,
+      "dropped_row_filter": 15808,
+      "dropped_null_outcome": 0,
+      "dropped_null_wer": 0,
+      "wer_clamped": 2775,
+      "dropped_hallucination": 0,
+      "rows_out": 71136
+    },
+    "formula": "outcome ~ wer + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)",
+    "error": null,
+    "contrast": null,
+    "joint_test": null,
+    "warnings": [],
+    "summary_file": "results/analysis/fits/h2_ees.txt"
+  },
+  "h3": {
+    "outcome": "pf",
+    "diagnostics": {
+      "model": "h3",
+      "outcome": "pf",
+      "rows_in": 86944,
+      "dropped_row_filter": 65350,
+      "dropped_null_outcome": 0,
+      "dropped_null_wer": 0,
+      "wer_clamped": 1527,
+      "dropped_hallucination": 0,
+      "rows_out": 21594
+    },
+    "formula": "outcome ~ phonetic_distance + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)",
+    "error": null,
+    "contrast": null,
+    "joint_test": null,
+    "warnings": [],
+    "summary_file": "results/analysis/fits/h3_pf.txt"
+  },
+  "h4b": {
+    "outcome": "ees",
+    "diagnostics": {
+      "model": "h4b",
+      "outcome": "ees",
+      "rows_in": 86944,
+      "dropped_row_filter": 55328,
+      "dropped_null_outcome": 0,
+      "dropped_null_wer": 0,
+      "wer_clamped": 448,
+      "dropped_hallucination": 0,
+      "rows_out": 31616
+    },
+    "formula": "outcome ~ C(pathway, Treatment(reference='cascade'))*C(degradation, Treatment(reference='clean')) + C(model_family) + snr_20 + snr_10",
+    "error": null,
+    "contrast": null,
+    "joint_test": {
+      "terms": [
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.babble]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.clipping]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.codec]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.farfield]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.noise]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.reverb]"
+      ],
+      "df": 6,
+      "statistic": 29.112699642279093,
+      "p_value": 5.7920714322216315e-05
+    },
+    "warnings": [],
+    "summary_file": "results/analysis/fits/h4b_ees.txt"
+  }
+}

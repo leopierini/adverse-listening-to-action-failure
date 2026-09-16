@@ -1,0 +1,34 @@
+{
+  "h4b": {
+    "outcome": "ees",
+    "diagnostics": {
+      "model": "h4b",
+      "outcome": "ees",
+      "rows_in": 86944,
+      "dropped_row_filter": 55328,
+      "dropped_null_outcome": 0,
+      "dropped_null_wer": 0,
+      "wer_clamped": 90,
+      "dropped_hallucination": 748,
+      "rows_out": 30868
+    },
+    "formula": "outcome ~ C(pathway, Treatment(reference='cascade'))*C(degradation, Treatment(reference='clean')) + C(model_family) + snr_20 + snr_10",
+    "error": null,
+    "contrast": null,
+    "joint_test": {
+      "terms": [
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.babble]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.clipping]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.codec]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.farfield]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.noise]",
+        "C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.reverb]"
+      ],
+      "df": 6,
+      "statistic": 23.452983724696885,
+      "p_value": 0.0006581272805534807
+    },
+    "warnings": [],
+    "summary_file": "results/analysis/fits_nohalluc/h4b_ees.txt"
+  }
+}

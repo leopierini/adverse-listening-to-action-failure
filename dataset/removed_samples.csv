@@ -1,0 +1,6 @@
+slurp_id,removal_category,scenario,intent,gold_sentence,removal_reason
+7595,out_of_domain,calendar,calendar_set,set a timer for five minutes for cookies,"timer, fuori scenario -> set di ripiego"
+8425,out_of_domain,calendar,calendar_query,what's the news for six hundred and forty five am today,notizie -> query di ripiego
+8491,out_of_domain,calendar,calendar_query,what were the highlights from this evening's soccer match,sport -> query di ripiego
+13938,out_of_domain,calendar,calendar_query,do i have any new tinder matches,Tinder -> query di ripiego
+10751,unintelligible,lists,lists_query,google translate,audio inintelligibile (verificato all'ascolto 2026-06-02; nemmeno chiaro dica 'google translate')

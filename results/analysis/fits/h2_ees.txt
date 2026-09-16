@@ -1,0 +1,39 @@
+========================================================================
+MODEL      : h2
+FORMULA    : outcome ~ wer + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)
+ESTIMATOR  : GEE (Binomial family, Exchangeable working correlation, robust SEs)
+CLUSTER    : slurp_id  (416 clusters, 71136 observations)
+DESIGN     : 14 columns, rank 14, smallest singular value 3.489e+01
+NOTE       : no fallback estimator exists; this is the pinned confirmatory specification (tracker §8).
+========================================================================
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                     outcome   No. Observations:                71136
+Model:                                 GEE   No. clusters:                      416
+Method:                        Generalized   Min. cluster size:                 171
+                      Estimating Equations   Max. cluster size:                 171
+Family:                           Binomial   Mean cluster size:               171.0
+Dependence structure:         Exchangeable   Num. iterations:                    10
+Date:                     Fri, 28 Aug 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         01:03:10
+===============================================================================================================
+                                                  coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------
+Intercept                                       0.7327      0.159      4.619      0.000       0.422       1.044
+C(asr_model)[T.whisper-base-mlx]               -0.0334      0.041     -0.807      0.419      -0.114       0.048
+C(asr_model)[T.whisper-large-v3-turbo]          0.0648      0.036      1.812      0.070      -0.005       0.135
+C(degradation)[T.clean]                         0.2619      0.048      5.499      0.000       0.169       0.355
+C(degradation)[T.clipping]                      0.1430      0.033      4.389      0.000       0.079       0.207
+C(degradation)[T.codec]                         0.1571      0.031      5.038      0.000       0.096       0.218
+C(degradation)[T.farfield]                      0.1172      0.033      3.536      0.000       0.052       0.182
+C(degradation)[T.noise]                        -0.0096      0.028     -0.345      0.730      -0.064       0.045
+C(degradation)[T.reverb]                        0.0189      0.032      0.598      0.550      -0.043       0.081
+C(llm_model)[T.Qwen3.5-9B-MLX-8bit]            -0.0302      0.074     -0.407      0.684      -0.175       0.115
+C(llm_model)[T.gemma-4-31B-it-qat-w4a16-ct]     0.2665      0.057      4.699      0.000       0.155       0.378
+wer                                            -3.7912      0.221    -17.179      0.000      -4.224      -3.359
+snr_20                                          0.1913      0.028      6.772      0.000       0.136       0.247
+snr_10                                          0.1262      0.024      5.205      0.000       0.079       0.174
+==============================================================================
+Skew:                         -0.1400   Kurtosis:                      -1.1303
+Centered skew:                -0.0716   Centered kurtosis:              0.4484
+==============================================================================

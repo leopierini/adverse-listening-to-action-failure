@@ -1,0 +1,45 @@
+========================================================================
+MODEL      : h1
+FORMULA    : outcome ~ wer + has_critical_error + has_function_error + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)
+ESTIMATOR  : GEE (Binomial family, Exchangeable working correlation, robust SEs)
+CLUSTER    : slurp_id  (416 clusters, 71136 observations)
+DESIGN     : 16 columns, rank 16, smallest singular value 3.486e+01
+NOTE       : no fallback estimator exists; this is the pinned confirmatory specification (tracker §8).
+========================================================================
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                     outcome   No. Observations:                71136
+Model:                                 GEE   No. clusters:                      416
+Method:                        Generalized   Min. cluster size:                 171
+                      Estimating Equations   Max. cluster size:                 171
+Family:                           Binomial   Mean cluster size:               171.0
+Dependence structure:         Exchangeable   Num. iterations:                    15
+Date:                     Fri, 28 Aug 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         01:03:10
+===============================================================================================================
+                                                  coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------
+Intercept                                       1.3656      0.207      6.600      0.000       0.960       1.771
+C(asr_model)[T.whisper-base-mlx]               -0.1098      0.047     -2.357      0.018      -0.201      -0.019
+C(asr_model)[T.whisper-large-v3-turbo]          0.0246      0.040      0.620      0.535      -0.053       0.103
+C(degradation)[T.clean]                         0.3679      0.060      6.140      0.000       0.250       0.485
+C(degradation)[T.clipping]                      0.1567      0.041      3.794      0.000       0.076       0.238
+C(degradation)[T.codec]                         0.2093      0.041      5.104      0.000       0.129       0.290
+C(degradation)[T.farfield]                      0.1741      0.042      4.149      0.000       0.092       0.256
+C(degradation)[T.noise]                        -0.0178      0.032     -0.551      0.581      -0.081       0.045
+C(degradation)[T.reverb]                       -0.0146      0.038     -0.387      0.699      -0.088       0.059
+C(llm_model)[T.Qwen3.5-9B-MLX-8bit]             0.2528      0.075      3.353      0.001       0.105       0.400
+C(llm_model)[T.gemma-4-31B-it-qat-w4a16-ct]     0.4149      0.060      6.915      0.000       0.297       0.533
+wer                                            -3.8547      0.235    -16.401      0.000      -4.315      -3.394
+has_critical_error                              0.3786      0.110      3.455      0.001       0.164       0.593
+has_function_error                             -0.2045      0.100     -2.047      0.041      -0.400      -0.009
+snr_20                                          0.2671      0.036      7.512      0.000       0.197       0.337
+snr_10                                          0.1667      0.029      5.767      0.000       0.110       0.223
+==============================================================================
+Skew:                         -0.5575   Kurtosis:                      -0.6768
+Centered skew:                -0.2031   Centered kurtosis:              0.7076
+==============================================================================
+
+CONTRAST (has_critical_error - has_function_error = 0)
+  estimate +0.5831   se 0.1396   z +4.178   p 2.945e-05
+  H1 predicts a POSITIVE estimate: a critical-slot error should damage the intent LESS than a function-word error.

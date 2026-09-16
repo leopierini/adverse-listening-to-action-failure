@@ -1,0 +1,417 @@
+slurp_id,scenario,intent,intent_raw,gold_intent_final,review_status,review_category,review_note,gold_sentence,sentence_annotation,audio_file
+173,alarm,alarm_set,alarm_set,alarm_set,ok,,,set alarm tomorrow at six am,set alarm [date : tomorrow] at [time : six am],audio-1490356193-headset.flac
+232,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm at six in the morning,set an alarm at [time : six] in the [timeofday : morning],audio--1504192432-headset.flac
+237,alarm,alarm_query,alarm_query,alarm_query,ok,,,did i set an alarm to wake up in the morning,did i set an alarm to [alarm_type : wake up] in the [timeofday : morning],audio-1498567914-headset.flac
+510,alarm,alarm_query,alarm_query,alarm_query,ok,,,do i have an alarm set,do i have an alarm set,audio-1501686963-headset.flac
+534,alarm,alarm_set,alarm_set,alarm_set,ok,,,set a wake up call for ten am,set a wake up call for [time : ten am],audio-1490264329-headset.flac
+536,alarm,alarm_set,alarm_set,alarm_set,ok,,,make an alarm for three pm,make an alarm for [time : three pm],audio-1490369142-headset.flac
+538,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for one pm,set an alarm for [time : one pm],audio-1497868915-headset.flac
+562,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,get rid of my eight am alarm,get rid of my [time : eight am] alarm,audio-1497264951-headset.flac
+601,alarm,alarm_set,alarm_set,alarm_set,ok,,,start alarm,start alarm,audio-1490019434-headset.flac
+610,alarm,alarm_set,alarm_set,alarm_set,ok,,,i want to wake up at six am tomorrow please,i want to wake up at [time : six am] [date : tomorrow] please,audio-1502891344-headset.flac
+885,alarm,alarm_set,alarm_set,alarm_set,ok,,,alarm set eight am,alarm set [time : eight am],audio-1490288635-headset.flac
+895,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,turn off the six am alarm for wednesday,turn off the [time : six am] alarm for [date : Wednesday],audio-1490288525-headset.flac
+896,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,turn off any morning alarms after friday,turn off any [timeofday : morning] alarms [date : after Friday],audio--1504192734-headset.flac
+937,alarm,alarm_remove,alarm_remove,alarm_remove,ambiguous_retained,need_audio,'phones' (attuale alarm_remove),phones,phones,audio-1497879532-headset.flac
+1038,alarm,alarm_query,alarm_query,alarm_query,ok,,,is my school alarm set,is my school alarm set,audio--1504191120-headset.flac
+1625,alarm,alarm_query,alarm_query,alarm_query,ambiguous_retained,need_audio,'am or pm' (attuale alarm_query),am or pm,am or pm,audio-1490110085-headset.flac
+1732,alarm,alarm_query,alarm_query,alarm_query,ok,,,checkout today set alarm of ten am,checkout [date : today] set alarm of [time : ten am],audio--1504198582-headset.flac
+1914,alarm,alarm_set,alarm_set,alarm_set,ok,,,alert me at five hours,alert me at [time : five] hours,audio--1505406279-headset.flac
+2431,alarm,alarm_query,alarm_query,alarm_query,ok,,,what alarms are upcoming,what alarms are upcoming,audio-1497557545-headset.flac
+2672,alarm,alarm_query,alarm_query,alarm_query,ok,,,how many alarms do i have set for morning hours between six and nine am,how many alarms do i have set for [timeofday : morning] hours between [time : six and nine am],audio-1499697927-headset.flac
+2720,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for five thirty,set an alarm for [time : five thirty],audio-1490110701-headset.flac
+2869,alarm,alarm_query,alarm_query,alarm_query,ok,,,tell me my alarms,tell me my alarms,audio--1504198774-headset.flac
+2879,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,please remove any alarms that i have set,please remove any alarms that i have set,audio-1497271939-headset.flac
+3045,alarm,alarm_query,alarm_query,alarm_query,ok,,,next alarm,next alarm,audio-1501763905-headset.flac
+3148,alarm,alarm_query,alarm_query,alarm_query,ok,,,what time is my wakeup alarm set for,what time is my wakeup alarm set for,audio-1490202142-headset.flac
+3149,alarm,alarm_query,alarm_query,alarm_query,ok,,,do i have any alarms for tomorrow morning,do i have any alarms for [date : tomorrow] [timeofday : morning],audio--1504190804-headset.flac
+3151,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,remove my early alarms,remove my early alarms,audio-1497865132-headset.flac
+3242,alarm,alarm_set,alarm_set,alarm_set,ok,,,can you set the alarm for one hundred and thirty,can you set the alarm for [time : one hundred and thirty],audio-1490354415-headset.flac
+3248,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,cancel alarm for tomorrow,cancel alarm for [date : tomorrow],audio-1501686859-headset.flac
+3270,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,remove alarms set for tomorrow,remove alarms set for [date : tomorrow],audio--1504195233-headset.flac
+3463,alarm,alarm_set,alarm_set,alarm_set,ok,,,i would like a wake up alarm at seven am tomorrow,i would like a [alarm_type : wake up] alarm at [time : seven am] [date : tomorrow],audio-1501693929-headset.flac
+3599,alarm,alarm_set,alarm_set,alarm_set,ok,,,set up an alarm clock at one pm,set up an alarm clock at [time : one pm],audio--1505405521-headset.flac
+3904,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,please delete the wednesday evening alarm,please delete the [date : wednesday] [timeofday : evening] alarm,audio-1490802231-headset.flac
+3956,alarm,alarm_set,alarm_set,alarm_set,ok,,,alert me in three hours,alert me in [time : three hours],audio-1501753591-headset.flac
+4094,alarm,alarm_set,alarm_set,alarm_set,ok,,,please put on an alarm for eight am,please put on an alarm for [time : eight am],audio-1502299387-headset.flac
+4129,alarm,alarm_query,alarm_query,alarm_query,ok,,,what alarms do i have set right now,what alarms do i have set right now,audio-1501766839-headset.flac
+4198,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,remove the alarm set for four hundred am,remove the alarm set for [time : four hundred am],audio-1502194832-headset.flac
+4317,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for ten o'clock tomorrow morning,set an alarm for [time : ten] o'clock [date : tomorrow] [timeofday : morning],audio--1506079416-headset.flac
+4318,alarm,alarm_set,alarm_set,alarm_set,ok,,,wake me up at ten,wake me up at [time : ten],audio--1504194842-headset.flac
+4693,alarm,alarm_set,set,alarm_set,ok,,,set an alarm for five am,set an alarm for [time : five am],audio--1504194915-headset.flac
+4694,alarm,alarm_set,alarm_set,alarm_set,ok,,,please set an alarm for ten pm,please set an alarm for [time : ten pm],audio-1502200628-headset.flac
+4723,alarm,alarm_query,alarm_query,alarm_query,ok,,,list my different alarm,list my different alarm,audio--1504191463-headset.flac
+4850,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for five minutes from now,set an alarm for [time : five minutes from now],audio--1504198708-headset.flac
+4853,alarm,alarm_set,alarm_set,alarm_set,ok,,,please set my alarm,please set my alarm,audio-1502199738-headset.flac
+4971,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,remove finlee's bedtime alarm,remove [person : finlee's] bedtime alarm,audio-1502199127-headset.flac
+5084,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for six am,set an alarm for [time : six am],audio-1502890937-headset.flac
+5099,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,olly cancel alarms,olly cancel alarms,audio--1504195010-headset.flac
+5100,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,siri cancel yoga alarms,siri cancel yoga alarms,audio-1490199440-headset.flac
+5336,alarm,alarm_query,alarm_query,alarm_query,ok,,,provide me the alarm times you have set,provide me the alarm times you have set,audio--1504194659-headset.flac
+5436,alarm,alarm_remove,alarm_remove,alarm_remove,ok,,,get rid of the five pm alarm,get rid of the [time : five pm] alarm,audio-1501690387-headset.flac
+5541,alarm,alarm_query,alarm_query,alarm_query,ok,,,please let me know the morning alarm time for weekdays,please let me know the [timeofday : morning] alarm time for [date : weekdays],audio--1504191543-headset.flac
+5567,alarm,alarm_set,alarm_set,alarm_set,ok,,,set alarm on twenty fifth may at five pm,set alarm on [date : twenty fifth] [date : may] at [time : five pm],audio-1434533308-headset.flac
+5609,alarm,alarm_query,alarm_query,alarm_query,ok,,,report alarm settings,report alarm settings,audio--1504192385-headset.flac
+5667,alarm,alarm_query,alarm_query,alarm_query,ambiguous_retained,need_audio,'tap start and then select settings' (attuale alarm_query),tap start and then select settings,tap start and then select settings,audio-1497865362-headset.flac
+5793,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for five o'clock this evening labelled taxi,set an alarm for [time : five] o'clock this [timeofday : evening] labelled [event_name : taxi],audio-1501686366-headset.flac
+5867,alarm,alarm_query,alarm_query,alarm_query,ok,,,tell me about the alarm timings,tell me about the alarm timings,audio--1504195051-headset.flac
+5982,alarm,alarm_query,alarm_query,alarm_query,ok,,,at what time have you set alarm for me,at what time have you set alarm for me,audio-1498564404-headset.flac
+6035,alarm,alarm_set,alarm_set,alarm_set,ambiguous_retained,weak_fragment,'open clock' (attuale set; apri app),open clock,open clock,audio--1504192269-headset.flac
+6079,alarm,alarm_set,alarm_set,alarm_set,ambiguous_retained,need_audio,'alarm' (attuale alarm_set),alarm,alarm,audio-1499265882-headset.flac
+7043,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for two hours from now please,set an alarm for [time : two hours from now] please,audio-1501763982-headset.flac
+8253,alarm,alarm_set,alarm_set,alarm_set,ok,,,set a reminder i need to wake up at five am every morning,set a reminder i need to wake up at [time : five am] [general_frequency : every morning],audio-1501752187-headset.flac
+8803,alarm,alarm_set,alarm_set,alarm_set,ok,,,please set alarm for,please set alarm for,audio-1501776765-headset.flac
+9049,alarm,alarm_set,alarm_set,alarm_set,ok,,,set an alarm for four pm tuesday,set an alarm for [time : four pm] [date : tuesday],audio-1502200061-headset.flac
+2042,calendar,calendar_query,calendar_query,calendar_query,ok,,,is the meeting scheduled for tomorrow,is the [event_name : meeting] scheduled for [date : tomorrow],audio-1490263108-headset.flac
+6414,calendar,calendar_query,calendar_query,calendar_query,ok,,,my weekly plan,My weekly plan,audio-1490193461-headset.flac
+6520,calendar,calendar_query,calendar_query,calendar_query,ok,,,schedule,schedule,audio-1498566829-headset.flac
+6540,calendar,calendar_set,calendar_set,calendar_set,ok,,,today needs to be marked as my cheat day,[date : today] needs to be marked as [event_name : my cheat day],audio-1495372355-headset.flac
+6723,calendar,calendar_query,query,calendar_query,ok,,,olly what's my agenda for the remainder of the week,olly what's my agenda for the [time : remainder of the week],audio-1490197894-headset.flac
+6734,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,clear my day from meetings,clear my [time : day] from [event_name : meetings],audio-1497884435-headset.flac
+6751,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is my next meeting,when is my next [event_name : meeting],audio-1498572438-headset.flac
+6760,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,cancel my five pm daily call,cancel my [time : five pm] [general_frequency : daily] [event_name : call],audio-1501414625-headset.flac
+6771,calendar,calendar_set,calendar_set,calendar_set,ok,,,book a meeting with chelsea,book a [event_name : meeting] with [person : chelsea],audio-1501767552-headset.flac
+6778,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any events today,do i have any events [date : today],audio-1490109860-headset.flac
+6779,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have anything booked for tomorrow,do i have anything booked for [date : tomorrow],audio-1490019470-headset.flac
+6792,calendar,calendar_query,calendar_query,calendar_query,ok,,,tell me about my events,tell me about my events,audio-1490103591-headset.flac
+6823,calendar,calendar_set,calendar_set,calendar_set,ok,,,olly i want to go to the outdoor movie screening this weekend remind me,olly i want to go to the [event_name : outdoor movie] screening this [time : weekend] remind me,audio-1490007870-headset.flac
+6827,calendar,calendar_query,calendar_query,calendar_query,ok,,,have you added a meeting with tom tomorrow at nine pm,have you added a [event_name : meeting] with [person : tom] [date : tomorrow] at [time : nine pm],audio-1490372159-headset.flac
+6831,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete all events for the next five days,delete all events for the [date : next five days],audio-1498573471-headset.flac
+6841,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any meetings tomorrow at nine pm,do i have any [event_name : meetings] [date : tomorrow] at [time : nine pm],audio-1498568229-headset.flac
+6858,calendar,calendar_set,calendar_set,calendar_set,ok,,,set up the following event in the calendar with the following people,set up the following event in the calendar with the following people,audio-1494415410-headset.flac
+6873,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,can you erase the past event i visited,can you erase the past event i visited,audio-1434529383-headset.flac
+6875,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any upcoming events in my calendar,do i have any upcoming events in my calendar,audio-1434537043-headset.flac
+6881,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is the next appointment on my calendar,when is the next [event_name : appointment] on my calendar,audio-1498569819-headset.flac
+6898,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,can you delete all events from my calendar,can you delete all events from my calendar,audio-1502199096-headset.flac
+6908,calendar,calendar_set,calendar_set,calendar_set,ok,,,i need a reminder every single day at nine am,i need a reminder [general_frequency : every single day] at [time : nine am],audio-1499245771-headset.flac
+6912,calendar,calendar_query,calendar_query,calendar_query,ok,,,who should i expect to be at the meeting today,who should i expect to be at the [event_name : meeting] [date : today],audio-1489673941-headset.flac
+6914,calendar,calendar_set,calendar_set,calendar_set,ok,,,put monday meeting on calendar every monday,put [event_name : monday meeting] on calendar [general_frequency : every Monday],audio-1497887113-headset.flac
+6920,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a notification for sixth march that there is a society meeting at eleven am,set a notification for [date : sixth march] that there is a [event_name : society meeting] at [time : eleven am],audio-1490204584-headset.flac
+6925,calendar,calendar_query,calendar_query,calendar_query,ok,,,is there any program for tomorrow evening,is there any program for [date : tomorrow] [timeofday : evening],audio-1501414241-headset.flac
+6927,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete all events and information,delete all events and information,audio-1490282637-headset.flac
+6929,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove all the events and schedules,remove all the events and schedules,audio-1490006963-headset.flac
+6932,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is my event schedule tomorrow,what is my event schedule [date : tomorrow],audio-1500386636-headset.flac
+6948,calendar,calendar_query,calendar_query,calendar_query,ok,,,how many meetings do i have this week,how many [event_name : meetings] do i have [date : this week],audio-1500039463-headset.flac
+6952,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,wipe calendar clean,wipe calendar clean,audio-1492779585-headset.flac
+6963,calendar,calendar_set,calendar_set,calendar_set,ok,,,please remind me one hour before the meeting i have tomorrow morning,please remind me [time : one hour] before the [event_name : meeting] i have [date : tomorrow] [timeofday : morning],audio-1490020809-headset.flac
+6985,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is my afternoon schedule tomorrow,what is my [timeofday : afternoon] schedule [date : tomorrow],audio-1497264659-headset.flac
+6990,calendar,calendar_query,calendar_query,calendar_query,ok,,,upcoming events,upcoming events,audio-1497872962-headset.flac
+6991,calendar,calendar_query,calendar_query,calendar_query,ok,,,latest events,latest events,audio-1490110063-headset.flac
+7007,calendar,calendar_set,calendar_set,calendar_set,ok,,,set an appointment for allen on tomorrow,set an [event_name : appointment] for [person : allen] on [date : tomorrow],audio-1502309812-headset.flac
+7034,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder for vacation next month,set a reminder for [event_name : vacation] [date : next month],audio-1501753221-headset.flac
+7035,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,clear calendar for this month,clear calendar for [date : this month],audio-1501691843-headset.flac
+7052,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have anything going on this saturday between two and four pm,do i have anything going on this [date : Saturday] between [time : two] and [time : four pm],audio-1501758494-headset.flac
+7064,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please delete all of my calendar events for the rest of the day,please delete all of my calendar events for the [time : rest of the day],audio-1499245401-headset.flac
+7065,calendar,calendar_query,calendar_query,calendar_query,ok,,,what events are in my calendar for today,what events are in my calendar for [date : today],audio-1490368390-headset.flac
+7066,calendar,calendar_query,calendar_query,calendar_query,ok,,,what are my calendar event,what are my calendar event,audio-1498484428-headset.flac
+7070,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any reminders today,do i have any reminders [date : today],audio-1490182518-headset.flac
+7086,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove today's meeting at evening,remove [date : today's] [event_name : meeting] at [timeofday : evening],audio-1490109573-headset.flac
+7101,calendar,calendar_set,calendar_set,calendar_set,ok,,,let me know the morning of my doctor appointment on the twelfth,let me know the [timeofday : morning] of my [event_name : doctor appointment] on the [date : twelfth],audio-1490369079-headset.flac
+7104,calendar,calendar_set,calendar_set,calendar_set,ok,,,make a calendar entry for brunch on saturday morning with chris kimberly and aaronson,make a calendar entry for [event_name : brunch] on [date : Saturday] [timeofday : morning] with [person : chris] [person : kimberly] and [person : aaronson],audio-1502376059-headset.flac
+7108,calendar,calendar_set,calendar_set,calendar_set,ok,,,remember me to meet reveca today at six pm,remember me to [event_name : meet] [person : reveca] [date : today] at [time : six pm],audio-1501691416-headset.flac
+7112,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is that meeting with my boss next week,when is that [event_name : meeting] with my [relation : boss] [date : next week],audio-1501689694-headset.flac
+7131,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete the wedding on the tenth from my calendar,delete the [event_name : wedding] on the [date : tenth] from my calendar,audio-1501756909-headset.flac
+7134,calendar,calendar_query,calendar_query,calendar_query,ok,,,what to do next on events,what to do next on events,audio-1501757769-headset.flac
+7164,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,weak_fragment,'four pm' (attuale set),four pm,[time : four pm],audio-1502102020-headset.flac
+7174,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,cancel,cancel,audio-1502890707-headset.flac
+7184,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want to go to sally's birthday on saturday at ten pm,i want to go to [person : sally's] [event_name : birthday] on [date : saturday] at [time : ten pm],audio-1501406495-headset.flac
+7201,calendar,calendar_query,calendar_query,calendar_query,ok,,,what do i have going on next week,what do i have going on [date : next week],audio-1502891799-headset.flac
+7229,calendar,calendar_set,calendar_set,calendar_set,ok,,,please mark my calendar for a holiday in cuba on april two,please mark my calendar for a [event_name : holiday] in [place_name : cuba] on [date : april two],audio-1490261739-headset.flac
+7239,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind to at eight pm to take my medicine,remind to at [time : eight pm] to take my [event_name : medicine],audio-1490293870-headset.flac
+7244,calendar,calendar_query,calendar_query,calendar_query,ok,,,when will the match start,when will the [event_name : match] start,audio-1490182904-headset.flac
+7255,calendar,calendar_remove,calendar_remove,calendar_query,corrected,corrected,clausola principale interrogativa; 'i need to cancel' e' solo il motivo (gold era remove),what do i have scheduled for tomorrow i need to cancel,what do i have scheduled for [date : tomorrow] i need to cancel,audio-1489504288-headset.flac
+7260,calendar,calendar_set,calendar_set,calendar_set,ok,,,set reminder for meeting at three pm tomorrow,set reminder for [event_name : meeting] at [time : three pm] [date : tomorrow],audio-1502376590-headset.flac
+7279,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me to pick up the laundry next monday,remind me to [event_name : pick up the laundry] next [date : monday],audio-1434529642-headset.flac
+7300,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder that i have to visit my father tomorrow,set a reminder that i have to visit my [relation : father] [date : tomorrow],audio-1501158142-headset.flac
+7305,calendar,calendar_set,calendar_set,calendar_set,ok,,,add to the calendar a reunion event for this afternoon,add to the calendar a [event_name : reunion] event for [timeofday : this afternoon],audio-1490355898-headset.flac
+7309,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is my first appointment today,what is my first [event_name : appointment] [date : today],audio-1499265065-headset.flac
+7310,calendar,calendar_query,calendar_query,calendar_query,ok,,,what's on my schedule for today,what's on my schedule for [date : today],audio-1501772526-headset.flac
+7317,calendar,calendar_set,calendar_set,calendar_set,ok,,,can you set the location to my sisters house for this event,can you set the location to my [relation : sisters] [place_name : house] for this event,audio-1490367734-headset.flac
+7341,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,do remove next event from the calendar,do remove next event from the calendar,audio-1502197916-headset.flac
+7345,calendar,calendar_set,calendar_set,calendar_set,ok,,,add bola birthday of twelveth july to my calendar,add [person : bola] [event_name : birthday] of [date : twelveth july] to my calendar,audio-1501765453-headset.flac
+7351,calendar,calendar_set,calendar_set,calendar_set,ok,,,in the calendar put that we are having dinner with frank at eight pm on the ninth of august,in the calendar put that we are having [meal_type : dinner] with frank at eight pm on the ninth of august,audio-1501686899-headset.flac
+7357,calendar,calendar_query,calendar_query,calendar_query,ok,,,what are the list of events in my calendar in march,what are the list of events in my calendar in [date : march],audio-1497880167-headset.flac
+7373,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is the wedding scheduled,when is the [event_name : wedding] scheduled,audio-1501754013-headset.flac
+7374,calendar,calendar_query,calendar_query,calendar_query,ok,,,what meetings are available in march,what [event_name : meetings] are available in [date : march],audio-1498569508-headset.flac
+7381,calendar,calendar_query,calendar_query,calendar_query,ok,,,please check third event of twenty second of march twenty seventeen,please check third event of [date : twenty second of march twenty seventeen],audio-1501686582-headset.flac
+7401,calendar,calendar_set,calendar_set,calendar_set,ok,,,add valentine's day with her tomorrow,add [event_name : valentine's day] with her [date : tomorrow],audio-1490103500-headset.flac
+7402,calendar,calendar_set,calendar_set,calendar_set,ok,,,add birthday with mom for next month,add [event_name : birthday] with [relation : mom] for [date : next month],audio-1500040607-headset.flac
+7421,calendar,calendar_set,calendar_set,calendar_set,ok,,,create a meeting with friend,create a [event_name : meeting] with [relation : friend],audio-1494548515-headset.flac
+7424,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,weak_fragment,'attend party before the meeting' (attuale set),attend party before the meeting,attend [event_name : party] before the meeting,audio--1504190559-headset.flac
+7445,calendar,calendar_set,calendar_set,calendar_set,ok,,,please create an event with only these people,please create an event with only these people,audio-1490287322-headset.flac
+7458,calendar,calendar_set,calendar_set,calendar_set,ok,,,remember to pick me up by twelve noon from the airport i have a three pm meeting,remember to [event_name : pick me up] by [time : twelve noon] from the [place_name : airport] i have a [time : three pm] [event_name : meeting],audio-1501752278-headset.flac
+7470,calendar,calendar_set,calendar_set,calendar_set,ok,,,set meeting with jack on ten march,set [event_name : meeting] with [person : jack] on [date : ten march],audio-1490019689-headset.flac
+7474,calendar,calendar_set,calendar_set,calendar_set,ok,,,remember to fix a meeting between me and the players tomorrow evening by seven,remember to fix a [event_name : meeting] between me and the [person : players] [date : tomorrow] [timeofday : evening] by [time : seven],audio-1490201709-headset.flac
+7486,calendar,calendar_query,calendar_query,calendar_query,ok,,,what are my current alerts,what are my current alerts,audio-1495376444-headset.flac
+7495,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me for tomorrow interview,remind me for [date : tomorrow] [event_name : interview],audio-1497887463-headset.flac
+7505,calendar,calendar_query,calendar_query,calendar_query,ok,,,up coming events,[time : up coming] events,audio-1490198103-headset.flac
+7516,calendar,calendar_set,calendar_set,calendar_set,ok,,,set event on recurring,set event on recurring,audio-1490193887-headset.flac
+7517,calendar,calendar_set,calendar_set,calendar_set,ok,,,schedule a meeting on tuesday,schedule a [event_name : meeting] on [date : tuesday],audio-1497264410-headset.flac
+7523,calendar,calendar_query,calendar_query,calendar_query,ok,,,what we got in that meeting which held yesterday,what we got in that [event_name : meeting] which held [date : yesterday],audio-1499696717-headset.flac
+7541,calendar,calendar_set,calendar_set,calendar_set,ok,,,set reminder for tomorrow for this item,set reminder for [date : tomorrow] for this item,audio-1490202085-headset.flac
+7555,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,weak_fragment,'call person a for meeting' (attuale set),call person a for meeting,call person a for [event_name : meeting],audio-1502890120-headset.flac
+7571,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is the bill cycle,when is the [event_name : bill cycle],audio-1502197042-headset.flac
+7617,calendar,calendar_query,calendar_query,calendar_query,ok,,,when does the hockey game start on friday,when does the [event_name : hockey game] start on [date : friday],audio-1502891213-headset.flac
+7620,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please delete all my calendar events,please delete all my calendar events,audio-1501772807-headset.flac
+7627,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me to make a pizza tomorrow morning,remind me to [event_name : make a pizza] [date : tomorrow] [timeofday : morning],audio-1497860728-headset.flac
+7631,calendar,calendar_set,calendar_set,calendar_set,ok,,,set twelve noon prayer for every friday,set [time : twelve noon] [event_name : prayer] for [general_frequency : every friday],audio-1497865199-headset.flac
+7653,calendar,calendar_set,calendar_set,calendar_set,ok,,,don't forget to remind me of my brother's birthday on april twenty,don't forget to remind me of my [relation : brother's] [event_name : birthday] on [date : april twenty],audio-1434532514-headset.flac
+7665,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want to add a lunch date with mike jim and bob,i want to add a [meal_type : lunch] date with [person : mike] [person : jim] and [person : bob],audio-1501689053-headset.flac
+7675,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me the upcoming meeting at four am today,remind me the upcoming [event_name : meeting] at [time : four am] [date : today],audio-1490287621-headset.flac
+7676,calendar,calendar_set,calendar_set,calendar_query,corrected,corrected,elencare riunioni esistenti,list out the upcoming meeting,list out the upcoming [event_name : meeting],audio-1501752723-headset.flac
+7682,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,find and delete all of my weekend events with evan parker,find and delete all of my [time : weekend] events with [person : evan parker],audio-1502200265-headset.flac
+7684,calendar,calendar_set,calendar_set,calendar_set,ok,,,note this event to my calendar,note this event to my calendar,audio-1490357297-headset.flac
+7688,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any reminders pending,do i have any reminders pending,audio-1490288998-headset.flac
+7699,calendar,calendar_set,calendar_set,calendar_set,ok,,,be sure to remind me of this,be sure to remind me of this,audio-1434530390-headset.flac
+7703,calendar,calendar_set,calendar_set,calendar_set,ok,,,hey olly please set a reminder for tomorrow morning ten am meeting,hey olly please set a reminder for [date : tomorrow] [timeofday : morning] [time : ten am] [event_name : meeting],audio-1490359813-headset.flac
+7720,calendar,calendar_query,calendar_query,calendar_query,ok,,,please tell me the pending reminders,please tell me the pending reminders,audio-1434533173-headset.flac
+7723,calendar,calendar_query,calendar_query,calendar_query,ok,,,tell me about the meeting i have this week,tell me about the [event_name : meeting] i have [date : this week],audio-1490802216-headset.flac
+7727,calendar,calendar_set,calendar_set,calendar_set,ok,,,i have a birthday on monday set the event,i have a [event_name : birthday] on [date : monday] set the event,audio-1502376523-headset.flac
+7729,calendar,calendar_set,calendar_set,calendar_set,ok,,,i have a flight to take on the fifteenth,i have a flight to take on the [date : fifteenth],audio-1501151402-headset.flac
+7731,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a event for the evening,set a event for the [timeofday : evening],audio-1502101907-headset.flac
+7732,calendar,calendar_set,calendar_set,calendar_set,ok,,,set bob's birthday for every june third,set [person : bob's] [event_name : birthday] for [date : every june third],audio-1502376806-headset.flac
+7734,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me to go to the store every friday,remind me to go to the store [date : every friday],audio-1502377575-headset.flac
+7738,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete grocery shopping from my saturday schedule,delete grocery shopping from my [date : saturday] schedule,audio-1434534380-headset.flac
+7747,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove all data from my calendar,remove all data from my calendar,audio-1501685473-headset.flac
+7753,calendar,calendar_query,calendar_query,calendar_query,ok,,,what do i have to do on monday,what do i have to do on [date : monday],audio-1490370218-headset.flac
+7755,calendar,calendar_set,calendar_set,calendar_set,ok,,,repeat an event in my calendar,repeat an event in my calendar,audio-1501690626-headset.flac
+7766,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,are there ways to go ahead and clear my calendar for the month,are there ways to go ahead and clear my calendar for [date : the month],audio-1498758577-headset.flac
+7769,calendar,calendar_set,calendar_set,calendar_set,ok,,,add my practice at king's park on feb four at two pm,add my practice at [place_name : king's park] on [date : feb four] at [time : two pm],audio-1500389280-headset.flac
+7782,calendar,calendar_query,calendar_query,calendar_query,ok,,,what does today's schedule look like,what does [date : today's] schedule look like,audio-1490108714-headset.flac
+7801,calendar,calendar_set,calendar_set,calendar_set,ok,,,add a note to attend,add a note to attend,audio-1498568055-headset.flac
+7804,calendar,calendar_set,calendar_set,calendar_set,ok,,,make a repeating reminder for my work tasks every day at eight am,make a repeating reminder for my work tasks [general_frequency : every day] at [time : eight am],audio-1497865835-headset.flac
+7830,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,clear my schedule,clear my schedule,audio-1490104844-headset.flac
+7840,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have anywhere to be between eight am and five pm today,do i have anywhere to be between [time : eight am] and [time : five pm] [date : today],audio-1502896604-headset.flac
+7846,calendar,calendar_query,calendar_query,calendar_query,ok,,,what reminders are coming up this week,what reminders are coming up [date : this week],audio-1490103481-headset.flac
+7852,calendar,calendar_set,calendar_set,calendar_set,ok,,,add event baseball practice five pm tonight,add event [event_name : baseball practice] [time : five pm] [timeofday : tonight],audio-1434534560-headset.flac
+7867,calendar,calendar_query,calendar_query,calendar_query,ok,,,what does my morning look like tomorrow,what does my [timeofday : morning] look like [date : tomorrow],audio-1490183349-headset.flac
+7871,calendar,calendar_query,calendar_query,calendar_query,ok,,,who will be attending the meeting this friday,who will be attending the [event_name : meeting] [date : this friday],audio-1501754186-headset.flac
+7880,calendar,calendar_query,calendar_query,calendar_query,ok,,,tell me all the events between today and the twenty first,tell me all the events between [date : today] and the [date : twenty first],audio--1505323875-headset.flac
+7893,calendar,calendar_set,calendar_set,calendar_set,ok,,,please give me an update on the election every thirty minutes,please give me an update on the [event_name : election] every [time : thirty minutes],audio-1496265509-headset.flac
+7907,calendar,calendar_query,query,calendar_query,ok,,,do i have any appointments today,do i have any [event_name : appointments] [date : today],audio-1501756540-headset.flac
+7920,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,open calendar remove all events,open calendar remove all events,audio-1498572714-headset.flac
+7930,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me about my biology test at fsu on friday,remind me about my [event_name : biology test] at [place_name : fsu] on [date : friday],audio-1495376947-headset.flac
+7947,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is the schedule of the next maggie rogers concert,what is the schedule of the next [event_name : maggie rogers concert],audio-1490703562-headset.flac
+7968,calendar,calendar_query,calendar_query,calendar_query,ok,,,what do i need to know about the show,what do i need to know about the show,audio-1498573928-headset.flac
+7977,calendar,calendar_query,calendar_query,calendar_query,ok,,,are there any reminders set for today,are there any reminders set for [date : today],audio--1506079227-headset.flac
+7999,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please remove the parent teacher conference scheduled on march seven,please remove the [event_name : parent teacher conference] scheduled on [date : march seven],audio-1501694727-headset.flac
+8039,calendar,calendar_set,calendar_set,calendar_set,ok,,,please set a reminder for me to go to work in ten minutes,please set a reminder for me to [event_name : go to work] in [time : ten minutes],audio-1490105633-headset.flac
+8046,calendar,calendar_query,calendar_query,calendar_query,ok,,,how many meetings do i have next week,how many meetings do i have [date : next week],audio-1501757159-headset.flac
+8047,calendar,calendar_set,calendar_set,calendar_set,ok,,,on february fourteenth make dinner reservations at the restaurant,on [date : february fourteenth] make [meal_type : dinner] reservations at the [business_type : restaurant],audio-1498570919-headset.flac
+8057,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is happening this weekend,what is happening [date : this weekend],audio-1502299629-headset.flac
+8061,calendar,calendar_query,calendar_query,calendar_query,ok,,,what time does the dinner party start tonight,what time does the [event_name : dinner party] start [timeofday : tonight],audio-1498756830-headset.flac
+8063,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is my next reminder,when is my next reminder,audio-1497869339-headset.flac
+8069,calendar,calendar_set,calendar_set,calendar_set,ok,,,schedule lunch at tomo in arcata california tomorrow at noon,schedule [meal_type : lunch] at [place_name : tomo in arcata california] [date : tomorrow] at [timeofday : noon],audio-1498573577-headset.flac
+8078,calendar,calendar_set,calendar_set,calendar_set,ok,,,send me a reminder to pick up my dog from the groomer at one pm,send me a reminder to [event_name : pick up my dog] from the [place_name : groomer] at [time : one pm],audio-1490195085-headset.flac
+8089,calendar,calendar_set,set,calendar_query,corrected,corrected,domanda su evento esistente,when is my meeting,when is my [event_name : meeting],audio-1434529153-headset.flac
+8122,calendar,calendar_set,calendar_set,calendar_set,ok,,,alter lunch event to repeat every friday,alter [meal_type : lunch] event to repeat [date : every friday],audio-1501687549-headset.flac
+8127,calendar,calendar_set,calendar_set,calendar_set,ok,,,meeting update my calendar to reflect meeting,meeting update my calendar to [event_name : reflect meeting],audio-1502100385-headset.flac
+8132,calendar,calendar_query,calendar_query,calendar_query,ok,,,when are the trains running tomorrow,when are the trains running [date : tomorrow],audio-1500979150-headset.flac
+8133,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a remainder at three pm to pick jo,set a remainder at [time : three pm] to pick [person : jo],audio-1502196266-headset.flac
+8146,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,cancel my meeting on the fourteenth,cancel my [event_name : meeting] on the [date : fourteenth],audio-1501778166-headset.flac
+8152,calendar,calendar_query,calendar_query,calendar_query,ok,,,give me information about the concert on tuesday night,give me information about the concert on [date : tuesday] [time : night],audio-1501753236-headset.flac
+8160,calendar,calendar_set,calendar_set,calendar_set,ok,,,i need to be reminded that there is a meeting for paul's retirement set reminder for tuesday at three pm,i need to be reminded that there is a meeting for [person : paul's] [event_name : retirement] set reminder for [date : tuesday] at [time : three pm],audio-1501751458-headset.flac
+8207,calendar,calendar_query,calendar_query,calendar_query,ok,,,what do i have going on this morning between ten twelve,[time : what] do i have going on this [time : morning between ten twelve],audio-1490195630-headset.flac
+8208,calendar,calendar_query,calendar_query,calendar_query,ok,,,what time is the evening meeting i have with john,what time is the [event_name : evening meeting] i have with [person : john],audio-1490108186-headset.flac
+8258,calendar,calendar_query,calendar_query,calendar_query,ok,,,more about the concert in st pete,more about the [event_name : concert] in [place_name : st pete],audio-1490201373-headset.flac
+8263,calendar,calendar_set,calendar_set,calendar_set,ok,,,olly remind me about tomorrow's meeting tonight,olly remind me about [date : tomorrow's] [event_name : meeting] [timeofday : tonight],audio-1490194745-headset.flac
+8270,calendar,calendar_set,calendar_set,calendar_set,ok,,,notification of meeting on wednesday,notification of [event_name : meeting] on [date : wednesday],audio-1498484637-headset.flac
+8272,calendar,calendar_set,calendar_set,calendar_set,ok,,,add my upcoming meeting to my calendar,add my upcoming [event_name : meeting] to my calendar,audio-1502894749-headset.flac
+8282,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,completely clear my calendar please,completely clear my calendar please,audio-1502201237-headset.flac
+8287,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please delete the meeting i have with john tonight,please delete the [event_name : meeting] i have with [person : john] [timeofday : tonight],audio-1502113432-headset.flac
+8311,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder for wednesdays at two pm,set a reminder for [date : wednesdays] at [time : two pm],audio-1501152391-headset.flac
+8323,calendar,calendar_query,calendar_query,calendar_query,ok,,,did you add tomorrow's meeting to my calendar,did you add [date : tomorrow's] [event_name : meeting] to my calendar,audio-1499265510-headset.flac
+8325,calendar,calendar_set,calendar_set,calendar_set,ok,,,add lunch meetings at noon every day this week,add [meal_type : lunch] [event_name : meetings] at [timeofday : noon] [general_frequency : every day] [date : this week],audio-1502218005-headset.flac
+8329,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder for the meeting friday at three pm,set a reminder for the [event_name : meeting] [date : friday] at [time : three pm],audio-1497879613-headset.flac
+8333,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove everything from the calendar,remove everything from the calendar,audio-1501415251-headset.flac
+8372,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,hey siri make sure my calendar is completely clear tomorrow,hey siri make sure my calendar is completely clear [date : tomorrow],audio-1497263154-headset.flac
+8373,calendar,calendar_set,calendar_set,calendar_set,ok,,,new notification for meeting in two hours,new notification for [event_name : meeting] in [time : two hours],audio-1501752736-headset.flac
+8377,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me about calendar,remind me about calendar,audio-1490355120-headset.flac
+8384,calendar,calendar_query,calendar_query,calendar_query,ok,,,are there any pending appointments this morning,are there any pending [event_name : appointments] this [timeofday : morning],audio-1502218232-headset.flac
+8385,calendar,calendar_query,calendar_query,calendar_query,ok,,,is this week a payday week,is [date : this week] a payday week,audio-1498485138-headset.flac
+8417,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,cancel all appointments in my calendar,cancel all [event_name : appointments] in my calendar,audio-1490181715-headset.flac
+8418,calendar,calendar_query,query,calendar_query,ok,,,what reminders do i have set,what reminders do i have set,audio--1506079222-headset.flac
+8434,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove my event at one pm in my calendar,remove my event at [time : one pm] in my calendar,audio-1494422817-headset.flac
+8447,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder for next saturday go to the library at five o'clock,set a reminder for next [date : saturday] go to the [place_name : library] at [time : five] o'clock,audio-1498567099-headset.flac
+8451,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me about the upcoming national holiday,remind me about the [event_name : upcoming national holiday],audio-1490183412-headset.flac
+8463,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove my calendar event at one pm today,remove my calendar event at [time : one pm] [date : today],audio-1501155119-headset.flac
+8479,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a reminder for my meeting at five pm,set a reminder for my [event_name : meeting] at [time : five pm],audio-1497863308-headset.flac
+8487,calendar,calendar_set,calendar_set,calendar_set,ok,,,please add an appointment at nine am wednesday at dr greens office,please add an appointment at [time : nine am] [date : wednesday] at [relation : dr greens] [place_name : office],audio-1494606483-headset.flac
+8493,calendar,calendar_query,calendar_query,calendar_query,ok,,,tell me what is on my schedule for today,tell me what is on my schedule for [date : today],audio-1501772571-headset.flac
+8510,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is bruno mars coming to sacramento,when is [person : bruno mars] coming to [place_name : sacramento],audio-1502100973-headset.flac
+8522,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want to add something to my calendar,i want to add something to my calendar,audio-1490184598-headset.flac
+8528,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,clear event from calendar and refresh,clear event from calendar and refresh,audio-1490193395-headset.flac
+8543,calendar,calendar_query,calendar_query,calendar_query,ok,,,what events do i have coming up,what events do i have coming up,audio-1501414504-headset.flac
+8548,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete the next event on the calendar,delete the next event on the calendar,audio-1501778454-headset.flac
+8549,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please cancel the next event on the calendar,please cancel the next event on the calendar,audio-1498566358-headset.flac
+8578,calendar,calendar_query,calendar_query,calendar_query,ok,,,what meetings do i have between eight ten today,what [event_name : meetings] do i have between [time : eight ten] [date : today],audio-1497555955-headset.flac
+8592,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me tomorrow at two pm,remind me [date : tomorrow] at [time : two pm],audio-1490183205-headset.flac
+8594,calendar,calendar_set,calendar_set,calendar_set,ok,,,schedule an event in my calendar for the pool party at jack's place this saturday,schedule an event in my calendar for the [event_name : pool party] at [place_name : jack's place] [date : this saturday],audio-1490370989-headset.flac
+8602,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is the address for the event scheduled on the first of january,what is the address for the event scheduled on the [date : first of january],audio-1502197816-headset.flac
+8606,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want to meet with sara tomorrow,i want to meet with [person : sara] [date : tomorrow],audio-1498485987-headset.flac
+8609,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,compound,"scelto calendar_set (reschedule ingloba cancel), ma calendar_remove difendibile",cancel my meeting with lisa on tuesday and reschedule it for thursday,cancel my [event_name : meeting] with [person : lisa] on [date : tuesday] and reschedule it for [date : thursday],audio-1494609059-headset.flac
+8612,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove thursday's lunch from my calendar,remove [date : thursday's] [meal_type : lunch] from my calendar,audio-1502101173-headset.flac
+8619,calendar,calendar_set,calendar_set,calendar_set,ok,,,set and event for the fifteenth of every month to remind me to pay my internet bill,set and event for the [general_frequency : fifteenth of every month] to remind me to [event_name : pay my internet bill],audio-1501757149-headset.flac
+8622,calendar,calendar_set,calendar_set,calendar_set,ok,,,add the following date and time to my calendar,add the following date and time to my calendar,audio-1498565427-headset.flac
+8626,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is the event,when is the event,audio-1492779029-headset.flac
+8655,calendar,calendar_set,calendar_set,calendar_set,ok,,,add an event starting at three pm in goshen new york on may fifth for dan's graduation,add an event starting at [time : three pm] in [place_name : goshen new york] on [date : may fifth] for [event_name : dan's graduation],audio-1502895086-headset.flac
+8668,calendar,calendar_query,calendar_query,calendar_query,ok,,,in the last year how many hours have i been in meetings,in the [time : last year] how many hours have i been in [event_name : meetings],audio-1497881551-headset.flac
+8677,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete meeting,delete [event_name : meeting],audio-1495734210-headset.flac
+8697,calendar,calendar_set,calendar_set,calendar_set,ok,,,i have a meeting with al on march twenty first at ten,i have a [event_name : meeting] with [person : al] on [date : march twenty first] at [time : ten],audio-1498566270-headset.flac
+8699,calendar,calendar_query,calendar_query,calendar_query,ambiguous_retained,weak_fragment,'i needed to prepare for a health planning' (attuale query),i needed to prepare for a meeting,i needed to prepare for a [event_name : meeting],audio-1502100301-headset.flac
+8707,calendar,calendar_query,calendar_query,calendar_query,ok,,,show my upcoming events,show my upcoming events,audio-1500980349-headset.flac
+8714,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete from the calendar the next event,delete from the calendar the next event,audio-1501778048-headset.flac
+8723,calendar,calendar_query,calendar_query,calendar_query,ok,,,does my calendar say i'm free on april one two thousand and seventeen,does my calendar say i'm free on [date : april one two thousand and seventeen],audio-1490182976-headset.flac
+8729,calendar,calendar_set,calendar_set,calendar_set,ok,,,set a weekly appointment reminder,set a [general_frequency : weekly] appointment reminder,audio-1497439572-headset.flac
+8749,calendar,calendar_set,calendar_set,calendar_set,ok,,,flag two day after this day as my holiday,flag [date : two day after this day] as [event_name : my holiday],audio-1501768398-headset.flac
+8751,calendar,calendar_set,calendar_set,calendar_set,ok,,,tuesday meeting noon,[date : tuesday] [event_name : meeting] [timeofday : noon],audio-1501778664-headset.flac
+8752,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have anything scheduled for march seventh,do i have anything scheduled for [date : march seventh],audio-1494415763-headset.flac
+8753,calendar,calendar_set,calendar_set,calendar_set,ok,,,olly schedule my doctors appointment on friday at two pm,olly schedule my [event_name : doctors appointment] on [date : friday] at [time : two pm],audio-1497263106-headset.flac
+8755,calendar,calendar_set,calendar_set,calendar_set,ok,,,can you please add my dinner reservations to my calendar,can you please add my [event_name : dinner reservations] to my calendar,audio-1490355298-headset.flac
+8783,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any calendar events today,do i have any calendar events [date : today],audio-1501752158-headset.flac
+8800,calendar,calendar_query,calendar_query,calendar_query,ok,,,do i have any reminders on my list,do i have any reminders on my list,audio-1501772117-headset.flac
+8802,calendar,calendar_set,calendar_set,calendar_set,ok,,,please remind me of,please remind me of,audio--1505323810-headset.flac
+8808,calendar,calendar_set,calendar_set,calendar_query,corrected,corrected,verifica di esistenza,do i need to be reminded of any meetings on monday,do i need to be reminded of any [event_name : meetings] on [date : monday],audio-1497272055-headset.flac
+8829,calendar,calendar_query,calendar_query,calendar_query,ambiguous_retained,need_audio,'is calendar event false' (attuale calendar_query),is calendar event false,is calendar event false,audio-1498567390-headset.flac
+8834,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove all my meetings for the rest of the week,remove all my [event_name : meetings] for [time : the rest of the week],audio-1501764150-headset.flac
+8842,calendar,calendar_set,calendar_set,calendar_set,ok,,,add to calendar may two is mary's birthday repeat every year,add to calendar [date : may two] is [person : mary's] [event_name : birthday] repeat [general_frequency : every year],audio-1502301998-headset.flac
+8847,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want you to remind me to take my rain coat because it may rain,i want you to remind me to [event_name : take my rain coat] because it may rain,audio-1502201209-headset.flac
+8848,calendar,calendar_set,calendar_set,calendar_set,ok,,,please tell me to take my umbrella because it will be very hot today,please tell me to [event_name : take my umbrella] because it will be very hot [date : today],audio-1490181437-headset.flac
+8859,calendar,calendar_query,calendar_query,calendar_query,ok,,,what is my schedule for june fourteenth two thousand and seventeen,what is my schedule for [date : june fourteenth two thousand and seventeen],audio-1434533478-headset.flac
+8863,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,please delete all reminder of sunday,please delete all reminder of [date : sunday],audio-1490194676-headset.flac
+8873,calendar,calendar_set,calendar_set,calendar_set,ok,,,remember dinner on thursday at bistro italia,remember [meal_type : dinner] on [date : thursday] at [place_name : bistro italia],audio-1498565122-headset.flac
+8895,calendar,calendar_set,calendar_set,calendar_set,ok,,,calendar event with these people,calendar event with these people,audio-1498566930-headset.flac
+8896,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,clear my schedule for today,clear my schedule for [date : today],audio-1502199149-headset.flac
+8899,calendar,calendar_query,calendar_query,calendar_query,ok,,,details,details,audio-1498573073-headset.flac
+8903,calendar,calendar_query,calendar_query,calendar_query,ok,,,tell about latest events,tell about latest events,audio-1502100929-headset.flac
+8928,calendar,calendar_query,calendar_query,calendar_query,ok,,,when are the meetings,when are the [event_name : meetings],audio-1434534958-headset.flac
+8933,calendar,calendar_query,calendar_query,calendar_query,ok,,,when is the party scheduled,when is the [event_name : party] scheduled,audio-1501690432-headset.flac
+8934,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,coinflip_query_set,attuale calendar_set; possibile query ('with all events'=elencameli),notify me with all events in the next one week,notify me with all events in the [time : next one week],audio-1490801348-headset.flac
+8938,calendar,calendar_set,calendar_set,calendar_set,ok,,,john marriage anniversary,[person : john] [event_name : marriage anniversary],audio-1502195679-headset.flac
+8941,calendar,calendar_query,calendar_query,calendar_query,ok,,,when are holiday in current month,when are [event_name : holiday] in [time : current month],audio-1490194235-headset.flac
+8953,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,coinflip_query_set,attuale calendar_set; lieve preferenza per query ('informami'),let me know of the meeting on tuesday,let me know of the [event_name : meeting] on [date : tuesday],audio-1502377490-headset.flac
+8959,calendar,calendar_set,calendar_set,calendar_set,ok,,,i want you to remind me about the evening program,i want you to remind me about the [event_name : evening program],audio-1498569512-headset.flac
+8984,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete eric's bday from the calendar,delete [event_name : eric's bday] from the calendar,audio-1502375146-headset.flac
+9002,calendar,calendar_set,calendar_set,calendar_set,ok,,,ok google schedule a meeting with the vp of the department on the twenty first of march two thousand and seventeen,ok google schedule a [event_name : meeting] with [relation : the vp of the department] on [date : the twenty first of march two thousand and seventeen],audio-1495371821-headset.flac
+9004,calendar,calendar_set,calendar_set,calendar_set,ok,,,i need a meeting with the cfo on thursday,i need a [event_name : meeting] with [relation : the cfo] on [date : thursday],audio-1502216847-headset.flac
+9008,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove birthday event from my calendar,remove [event_name : birthday] event from my calendar,audio-1498570322-headset.flac
+9013,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me on fifth april there is a meeting with boss,remind me on [date : fifth april] there is a [event_name : meeting] with [relation : boss],audio-1498573229-headset.flac
+9023,calendar,calendar_set,calendar_set,calendar_set,ok,,,create a reminder for visa application on this thursday,create a reminder for [event_name : visa application] on this [date : thursday],audio-1502894606-headset.flac
+9040,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,make blank on july three calendar,make blank on [date : july three] calendar,audio-1497267388-headset.flac
+9051,calendar,calendar_set,calendar_set,calendar_set,ok,,,make an event reminder for monas wedding on tuesday,make an event reminder for [event_name : monas wedding] on [date : tuesday],audio-1497864418-headset.flac
+9065,calendar,calendar_set,calendar_set,calendar_set,ok,,,put a repeating event on the calendar,put a [event_name : repeating event] on the calendar,audio-1502894592-headset.flac
+9067,calendar,calendar_query,calendar_query,calendar_query,ok,,,am i busy this weekend,am i busy [date : this weekend],audio-1501764745-headset.flac
+9082,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,delete day after event,delete day after event,audio-1434532423-headset.flac
+9097,calendar,calendar_set,calendar_set,calendar_set,ambiguous_retained,need_audio,'remind the required events to be reset' (attuale calendar_set),remind the required events to be reset,remind the required events to be reset,audio-1490801495-headset.flac
+9136,calendar,calendar_query,calendar_query,calendar_query,ok,,,any meeting on friday,any meeting on [date : friday],audio-1498569834-headset.flac
+9144,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me that i have an appointment twelve o clock on saturday,remind me that i have an [event_name : appointment] [time : twelve o clock] on [date : saturday],audio-1497621187-headset.flac
+9164,calendar,calendar_query,calendar_query,calendar_query,ok,,,olly do i have any calendar events this month,olly do i have any calendar events [date : this month],audio-1497024796-headset.flac
+9171,calendar,calendar_set,calendar_set,calendar_set,ok,,,olly make a calendar entry for next saturday at ten am please,olly make a calendar entry for next [date : saturday] at [time : ten am] please,audio-1490182146-headset.flac
+9179,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me of the meeting on the twenty second of january,remind me of the [event_name : meeting] on [date : the twenty second of january],audio-1494420813-headset.flac
+9189,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me about the meeting in one hour,remind me about the [event_name : meeting] in [time : one hour],audio-1497270542-headset.flac
+9190,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me in one hour about my meeting,remind me in [time : one hour] about my [event_name : meeting],audio-1490705806-headset.flac
+10924,calendar,calendar_remove,calendar_remove,calendar_remove,ok,,,remove meeting for wednesday morning,remove meeting for [date : wednesday] [timeofday : morning],audio-1490183696-headset.flac
+11181,calendar,calendar_query,calendar_query,calendar_query,ok,,,my work schedule,my work schedule,audio--1505404942-headset.flac
+13107,calendar,calendar_set,calendar_set,calendar_set,ok,,,schedule a meeting with my colleague,schedule a [event_name : meeting] with my [relation : colleague],audio-1490021632-headset.flac
+15545,calendar,calendar_set,calendar_set,calendar_set,ok,,,remind me to tweet at this company,remind me to [media_type : tweet] at this company,audio-1497555712-headset.flac
+10424,lists,lists_query,lists_query,lists_query,ok,,,list the items on my shopping list olly,list the items on my [list_name : shopping] list olly,audio-1434532760-headset.flac
+10449,lists,lists_remove,lists_remove,lists_remove,ok,,,i'd like to cancel the trip to vegas next week,i'd like to cancel the trip to vegas next week,audio-1497887517-headset.flac
+10450,lists,lists_query,lists_query,lists_query,ok,,,what is on my shopping list today,what is on my [list_name : shopping] list [date : today],audio-1500040567-headset.flac
+10453,lists,lists_remove,lists_remove,lists_remove,ok,,,cross out bread from shopping list,cross out bread from [list_name : shopping] list,audio-1494415552-headset.flac
+10458,lists,lists_remove,lists_remove,lists_remove,ok,,,remove a list of things to buy,remove a list of [list_name : things to buy],audio-1501771821-headset.flac
+10468,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,can you create a new list,can you create a new list,audio-1490193669-headset.flac
+10470,lists,lists_remove,lists_remove,lists_remove,ok,,,remove a list of food items purchased last week,remove a list of [list_name : food] items purchased [date : last week],audio-1502309760-headset.flac
+10475,lists,lists_remove,lists_remove,lists_remove,ambiguous_retained,need_audio,"""it's depend pon the seen"" (attuale lists_remove)",it's depend pon the seen,it's depend pon the seen,audio-1497867695-headset.flac
+10486,lists,lists_remove,lists_remove,lists_remove,ok,,,clear list,clear list,audio-1502196100-headset.flac
+10488,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,make list,make list,audio-1502197079-headset.flac
+10496,lists,lists_query,lists_query,lists_query,ok,,,which grocery stores have i mad a list with,which [list_name : grocery stores] have i mad a list with,audio-1501752776-headset.flac
+10506,lists,lists_query,query,lists_query,ok,,,what are my lists,what are my lists,audio-1502194806-headset.flac
+10518,lists,lists_query,query,lists_query,ok,,,what lists are available,what lists are available,audio-1498567446-headset.flac
+10521,lists,lists_remove,lists_remove,lists_remove,ok,,,erase my old english songs list,erase my [list_name : old english] songs list,audio-1498484115-headset.flac
+10526,lists,lists_remove,lists_remove,lists_remove,ok,,,please remove a list,please remove a list,audio-1501415308-headset.flac
+10529,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add this item to the list,add this item to the list,audio-1498567134-headset.flac
+10532,lists,lists_query,lists_query,lists_query,ok,,,what were the last five lists i made,what were the last five lists i made,audio-1495734147-headset.flac
+10539,lists,lists_query,lists_query,lists_query,ok,,,send me the last list uploaded,send me the last list uploaded,audio-1490288006-headset.flac
+10545,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,make a list of numbers for me,make a list of [list_name : numbers] for me,audio-1490006493-headset.flac
+10551,lists,lists_query,lists_query,lists_query,ok,,,what's on my to do list for today,what's on my [list_name : to do] list for [date : today],audio-1502101531-headset.flac
+10555,lists,lists_query,lists_query,lists_query,ambiguous_retained,coinflip,attuale lists_query; se 'check'=spuntare allora remove,check item five on my to do list,check item five on my [list_name : to do] list,audio-1498569016-headset.flac
+10557,lists,lists_query,lists_query,lists_query,ok,,,please show my list,please show my list,audio-1489498911-headset.flac
+10589,lists,lists_remove,lists_remove,lists_remove,ok,,,remove the excel file from the list,remove the excel file from the list,audio-1490369577-headset.flac
+10605,lists,lists_query,lists_query,lists_query,ok,,,how many food items on the list,how many food items on the list,audio-1490021707-headset.flac
+10614,lists,lists_remove,lists_remove,lists_remove,ok,,,the list should not contain all food items with the prefix dry,the list should not contain all food items with the prefix dry,audio-1498485790-headset.flac
+10616,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,by tomorrow create a new list,by [date : tomorrow] create a new list,audio-1498565491-headset.flac
+10626,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,make a new list,make a new list,audio-1501753918-headset.flac
+10627,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,put pencil on a new grocery list,put pencil on a new [list_name : grocery] list,audio-1501694719-headset.flac
+10629,lists,lists_remove,lists_remove,lists_remove,ok,,,please remove this item from the list,please remove this item from the list,audio-1490357363-headset.flac
+10648,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add grocery to list,add grocery to list,audio-1497437007-headset.flac
+10666,lists,lists_query,lists_query,lists_query,ok,,,read the list,read the list,audio-1490109022-headset.flac
+10685,lists,lists_query,lists_query,lists_query,ok,,,tell me what lists i have,tell me what lists i have,audio-1490104392-headset.flac
+10689,lists,lists_remove,lists_remove,lists_remove,ok,,,remove item three,remove item three,audio-1490204884-headset.flac
+10697,lists,lists_query,lists_query,lists_query,ok,,,what does the list contain,what does the list contain,audio-1501758949-headset.flac
+10700,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,please add this item to the list,please add this item to the list,audio-1498573916-headset.flac
+10728,lists,lists_query,lists_query,lists_query,ok,,,display available lists,display available lists,audio-1490355220-headset.flac
+10730,lists,lists_query,lists_query,lists_query,ok,,,can you please tell me what i have on my list,can you please tell me what i have on my list,audio-1499693684-headset.flac
+10732,lists,lists_remove,lists_remove,lists_remove,ok,,,remove pepper from my grocery list,remove pepper from my [list_name : grocery] list,audio-1490184504-headset.flac
+10741,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add something to my list,add something to my list,audio-1434534283-headset.flac
+10746,lists,lists_remove,lists_remove,lists_remove,ok,,,remove that item from my list,remove that item from my list,audio-1498483449-headset.flac
+10754,lists,lists_query,lists_query,lists_query,ok,,,read back what i put on my to do list for this week,read back what i put on my to do list for [date : this week],audio-1490021718-headset.flac
+10758,lists,lists_query,lists_query,lists_query,ok,,,read shopping list items,read [list_name : shopping] list items,audio-1502302373-headset.flac
+10763,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add cereal to my shopping list,add cereal to my shopping list,audio-1497884591-headset.flac
+10767,lists,lists_query,lists_query,lists_query,ok,,,are eggs on my shopping list,are eggs on my [list_name : shopping] list,audio-1497883247-headset.flac
+10775,lists,lists_query,lists_query,lists_query,ok,,,do i have a list of contacts for the party i'm planning,do i have a list of contacts for the [event_name : party] i'm planning,audio-1498566926-headset.flac
+10784,lists,lists_remove,lists_remove,lists_remove,ok,,,delete my to do list,delete my [list_name : to do] list,audio-1498483010-headset.flac
+10791,lists,lists_remove,lists_remove,lists_remove,ok,,,remove item from list,remove item from list,audio-1498757770-headset.flac
+10797,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,please add milk to the grocery list,please add milk to the [list_name : grocery] list,audio-1490355510-headset.flac
+10806,lists,lists_query,lists_query,lists_query,ok,,,will you please show me my lists,will you please show me my lists,audio-1501415533-headset.flac
+10844,lists,lists_remove,lists_remove,lists_remove,ok,,,take milk off my grocery list,take milk off my [list_name : grocery] list,audio-1494606164-headset.flac
+10850,lists,lists_query,lists_query,lists_query,ok,,,please tell me what lists i have made,please tell me what lists i have made,audio-1490020160-headset.flac
+10854,lists,lists_remove,lists_remove,lists_remove,ok,,,rearrange that off the list,rearrange that off the list,audio-1490021936-headset.flac
+10860,lists,lists_remove,lists_remove,lists_remove,ok,,,drop it from list,drop it from list,audio-1490366035-headset.flac
+10865,lists,lists_query,lists_query,lists_query,ok,,,olly what else do i have on the list,olly what else do i have on the list,audio-1490018091-headset.flac
+10870,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add buy groceries to my to do list for today,add buy groceries to my to do list for [date : today],audio-1490802092-headset.flac
+10883,lists,lists_remove,lists_remove,lists_remove,ok,,,please tell me how can i remove the item,please tell me how can I remove the item,audio-1502896220-headset.flac
+10886,lists,lists_query,lists_query,lists_query,ok,,,can i check my lists,can i check my lists,audio-1502112371-headset.flac
+10889,lists,lists_query,lists_query,lists_query,ok,,,did i make a shopping list,did i make a [list_name : shopping] list,audio-1490800321-headset.flac
+10896,lists,lists_remove,lists_remove,lists_remove,ok,,,remove item from my list,remove item from my list,audio-1490006407-headset.flac
+10901,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,create a new list of,create a new list of,audio-1490289538-headset.flac
+10904,lists,lists_query,lists_query,lists_query,ok,,,tell me the list about,tell me the list about,audio-1501766439-headset.flac
+10916,lists,lists_remove,lists_remove,lists_remove,ok,,,please remove the first list,please remove the first list,audio-1434542061-headset.flac
+10925,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,create a new list of my pending bills,create a new list of my [list_name : pending bills],audio-1498572643-headset.flac
+10928,lists,lists_query,lists_query,lists_query,ok,,,read my list to me,read my list to me,audio-1502195969-headset.flac
+10929,lists,lists_query,lists_query,lists_query,ok,,,give me my list,give me my list,audio-1498646319-headset.flac
+10941,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,make a list for work,make a list for work,audio-1497271946-headset.flac
+10952,lists,lists_remove,lists_remove,lists_remove,ok,,,please delete list titled kickball,please delete list titled [list_name : kickball],audio-1490262796-headset.flac
+10962,lists,lists_remove,lists_remove,lists_remove,ok,,,i don't want this list any more,i don't want this list any more,audio-1497872472-headset.flac
+10965,lists,lists_query,lists_query,lists_query,ok,,,do i have anything on my to do list,do i have anything on my [list_name : to do] list,audio-1490287206-headset.flac
+10967,lists,lists_query,lists_query,lists_query,ok,,,what lists are currently available right now,what lists are currently available right now,audio-1498570209-headset.flac
+10969,lists,lists_remove,lists_remove,lists_remove,ok,,,delete the last line,delete the last line,audio-1500978344-headset.flac
+10973,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,create a new list for school supplies,create a new list for [list_name : school supplies],audio-1501764930-headset.flac
+10988,lists,lists_remove,lists_remove,lists_remove,ok,,,delete call newspaper from my vacation list,delete call newspaper from my [list_name : vacation list],audio-1497017301-headset.flac
+11004,lists,lists_query,lists_query,lists_query,ok,,,read out my shopping list for today,read out my [list_name : shopping] list for [date : today],audio-1498566394-headset.flac
+11007,lists,lists_query,lists_query,lists_query,ok,,,what is on the list for today,what is on the list for [date : today],audio-1490019946-headset.flac
+11014,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,include an item to a list,include an item to a list,audio-1490105107-headset.flac
+11020,lists,lists_remove,lists_remove,lists_remove,ok,,,take grocery buying off of the list,take grocery buying off of the list,audio-1501766461-headset.flac
+11022,lists,lists_remove,lists_remove,lists_remove,ok,,,we're out of paint so take bathroom painting off the list,we're out of paint so take bathroom painting off the list,audio-1490181675-headset.flac
+11041,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,remind me to order more soap,remind me to order more soap,audio-1497267950-headset.flac
+11045,lists,lists_query,lists_query,lists_query,ok,,,open my list,open my list,audio-1497867530-headset.flac
+11047,lists,lists_remove,lists_remove,lists_remove,ok,,,remove last played song,remove last played song,audio-1501689679-headset.flac
+11064,lists,lists_query,lists_query,lists_query,ok,,,hey what are my lists,hey what are my lists,audio-1495734112-headset.flac
+11065,lists,lists_query,lists_query,lists_query,ok,,,hey olly what are my lists,hey olly what are my lists,audio-1495378297-headset.flac
+11070,lists,lists_query,lists_query,lists_query,ok,,,can you tell me what the items on my grocery list are,can you tell me what the items on my [list_name : grocery] list are,audio-1501754539-headset.flac
+11076,lists,lists_query,lists_query,lists_query,ok,,,what is that on the list,what is that on the list,audio-1495734175-headset.flac
+11077,lists,lists_query,lists_query,lists_query,ok,,,tell me what's on my list,tell me what's on my list,audio-1501768358-headset.flac
+11079,lists,lists_remove,lists_remove,lists_remove,ok,,,remove a list,remove a list,audio-1498573613-headset.flac
+11084,lists,lists_remove,lists_remove,lists_remove,ok,,,cancel the milk from the shopping list,cancel the milk from the [list_name : shopping] list,audio-1501156954-headset.flac
+11086,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add milk to my grocery list,add milk to my [list_name : grocery] list,audio-1502376342-headset.flac
+11096,lists,lists_remove,lists_remove,lists_remove,ok,,,remove the santana music list,remove the [list_name : santana music] list,audio-1490370627-headset.flac
+11109,lists,lists_query,lists_query,lists_query,ok,,,what is on this specific list,what is on this specific list,audio-1434530553-headset.flac
+11119,lists,lists_query,lists_query,lists_query,ok,,,can i see my work lists,can i see my work lists,audio-1490183665-headset.flac
+11122,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add this to a list,add this to a list,audio-1498573165-headset.flac
+11131,lists,lists_remove,lists_remove,lists_remove,ok,,,please remove my to do list from today,please remove my [list_name : to do] list from [date : today],audio-1490801753-headset.flac
+11160,lists,lists_remove,lists_remove,lists_remove,ok,,,i don't want eggs,i don't want eggs,audio-1490370320-headset.flac
+11169,lists,lists_query,lists_query,lists_query,ok,,,list the availables,list the availables,audio-1434532639-headset.flac
+11178,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,create a list of monthly groceries to be bought,create a list of [general_frequency : monthly] [list_name : groceries] to be bought,audio-1490195843-headset.flac
+11182,lists,lists_query,lists_query,lists_query,ok,,,my health planning,My [list_name : health planning],audio-1497865290-headset.flac
+11196,lists,lists_createoradd,lists_createoradd,lists_createoradd,ok,,,add pastries to the christmas list,add pastries to the [list_name : christmas] list,audio-1497861512-headset.flac
+11212,lists,lists_createoradd,lists_createoradd,lists_createoradd,ambiguous_retained,compound,"scelto lists_createoradd (obiettivo=nuova lista), ma lists_remove difendibile",delete the old playlist and create new,delete the [list_name : old playlist] and create new,audio-1490194476-headset.flac
+11245,lists,lists_query,lists_query,lists_query,ok,,,how many items are on my to do list,how many items are on my [list_name : to do] list,audio-1494415949-headset.flac

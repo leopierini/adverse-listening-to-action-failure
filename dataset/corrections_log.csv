@@ -1,0 +1,5 @@
+slurp_id,gold_sentence,intent_slurp_original,intent_corrected,reason
+7676,list out the upcoming meeting,calendar_set,calendar_query,elencare riunioni esistenti
+8089,when is my meeting,calendar_set,calendar_query,domanda su evento esistente
+8808,do i need to be reminded of any meetings on monday,calendar_set,calendar_query,verifica di esistenza
+7255,what do i have scheduled for tomorrow i need to cancel,calendar_remove,calendar_query,clausola principale interrogativa; 'i need to cancel' e' solo il motivo (gold era remove)

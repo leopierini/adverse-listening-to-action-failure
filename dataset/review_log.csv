@@ -1,0 +1,27 @@
+slurp_id,status,category,gold_sentence,intent_current,gold_intent_final,note
+7676,corrected,corrected,list out the upcoming meeting,calendar_set,calendar_query,elencare riunioni esistenti
+8089,corrected,corrected,when is my meeting,calendar_set,calendar_query,domanda su evento esistente
+8808,corrected,corrected,do i need to be reminded of any meetings on monday,calendar_set,calendar_query,verifica di esistenza
+7255,corrected,corrected,what do i have scheduled for tomorrow i need to cancel,calendar_remove,calendar_query,clausola principale interrogativa; 'i need to cancel' e' solo il motivo (gold era remove)
+8953,ambiguous_retained,coinflip_query_set,let me know of the meeting on tuesday,calendar_set,calendar_set,attuale calendar_set; lieve preferenza per query ('informami')
+8934,ambiguous_retained,coinflip_query_set,notify me with all events in the next one week,calendar_set,calendar_set,attuale calendar_set; possibile query ('with all events'=elencameli)
+10555,ambiguous_retained,coinflip,check item five on my to do list,lists_query,lists_query,attuale lists_query; se 'check'=spuntare allora remove
+8609,ambiguous_retained,compound,cancel my meeting with lisa on tuesday and reschedule it for thursday,calendar_set,calendar_set,"scelto calendar_set (reschedule ingloba cancel), ma calendar_remove difendibile"
+11212,ambiguous_retained,compound,delete the old playlist and create new,lists_createoradd,lists_createoradd,"scelto lists_createoradd (obiettivo=nuova lista), ma lists_remove difendibile"
+8425,ambiguous_retained,out_of_domain,what's the news for six hundred and forty five am today,calendar_query,calendar_query,notizie -> query di ripiego
+8491,ambiguous_retained,out_of_domain,what were the highlights from this evening's soccer match,calendar_query,calendar_query,sport -> query di ripiego
+13938,ambiguous_retained,out_of_domain,do i have any new tinder matches,calendar_query,calendar_query,Tinder -> query di ripiego
+7595,ambiguous_retained,out_of_domain,set a timer for five minutes for cookies,calendar_set,calendar_set,"timer, fuori scenario -> set di ripiego"
+7164,ambiguous_retained,weak_fragment,four pm,calendar_set,calendar_set,'four pm' (attuale set)
+7424,ambiguous_retained,weak_fragment,attend party before the meeting,calendar_set,calendar_set,'attend party before the meeting' (attuale set)
+7555,ambiguous_retained,weak_fragment,call person a for meeting,calendar_set,calendar_set,'call person a for meeting' (attuale set)
+6035,ambiguous_retained,weak_fragment,open clock,alarm_set,alarm_set,'open clock' (attuale set; apri app)
+8699,ambiguous_retained,weak_fragment,i needed to prepare for a meeting,calendar_query,calendar_query,'i needed to prepare for a health planning' (attuale query)
+937,ambiguous_retained,need_audio,phones,alarm_remove,alarm_remove,'phones' (attuale alarm_remove)
+1625,ambiguous_retained,need_audio,am or pm,alarm_query,alarm_query,'am or pm' (attuale alarm_query)
+6079,ambiguous_retained,need_audio,alarm,alarm_set,alarm_set,'alarm' (attuale alarm_set)
+9097,ambiguous_retained,need_audio,remind the required events to be reset,calendar_set,calendar_set,'remind the required events to be reset' (attuale calendar_set)
+8829,ambiguous_retained,need_audio,is calendar event false,calendar_query,calendar_query,'is calendar event false' (attuale calendar_query)
+5667,ambiguous_retained,need_audio,tap start and then select settings,alarm_query,alarm_query,'tap start and then select settings' (attuale alarm_query)
+10751,ambiguous_retained,need_audio,google translate,lists_query,lists_query,'google translate' (attuale lists_query)
+10475,ambiguous_retained,need_audio,it's depend pon the seen,lists_remove,lists_remove,"""it's depend pon the seen"" (attuale lists_remove)"

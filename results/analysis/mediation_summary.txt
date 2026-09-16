@@ -1,0 +1,21 @@
+Mediation analysis (Phase 6) — how much of a degradation's damage
+to ees travels through the transcript?
+==============================================================================
+
+N = 23712 rows, 416 utterances
+Estimator: Imai, Keele & Tingley (2010) potential-outcomes
+decomposition via statsmodels.stats.mediation.Mediation.
+Effects are differences in P(success). CI = cluster bootstrap
+over slurp_id, B = 200, seed = 42.
+%MED = ACME / total, printed only where the total effect's 95%
+interval excludes zero. A dash means the total effect is not
+distinguishable from zero, so the share has no denominator.
+
+degradation    snr |      ACME       ADE     TOTAL     %MED | ACME 95% CI (cluster)    ADE 95% CI (cluster)    
+---------------------------------------------------------------------------------------------------------------
+babble           — |   -0.1257   -0.0156   -0.1413    88.9% | [-0.1405, -0.1095] n=200 [-0.0338, +0.0040] n=200
+clipping         — |   -0.0333   +0.0007   -0.0326   102.2% | [-0.0413, -0.0267] n=200 [-0.0132, +0.0109] n=200
+codec            — |   -0.0175   -0.0010   -0.0185        — | [-0.0226, -0.0126] n=200 [-0.0116, +0.0085] n=200
+farfield         — |   -0.0073   -0.0084   -0.0157        — | [-0.0113, -0.0032] n=200 [-0.0198, +0.0005] n=200
+noise            — |   -0.1322   -0.0152   -0.1475    89.7% | [-0.1481, -0.1152] n=200 [-0.0324, +0.0032] n=200
+reverb           — |   -0.1220   -0.0171   -0.1391    87.7% | [-0.1372, -0.1060] n=200 [-0.0366, +0.0034] n=200

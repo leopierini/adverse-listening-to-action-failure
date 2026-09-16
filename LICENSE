@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2026 Leonardo Pierini
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE ON SCOPE — this file covers the CODE only.
+
+The data in this repository and the data it derives from carry different terms.
+See the "Data provenance and licensing" section of README.md. In short:
+
+  - results/*.jsonl (transcriptions, predictions, derived metrics; no audio)
+    follow the TEXTUAL half of SLURP and are intended for release under
+    CC BY 4.0, with attribution to Bastianelli et al. (2020).
+  - The degraded audio bank is NOT in this repository. It derives from SLURP
+    AUDIO, which is CC BY-NC 4.0 (NonCommercial), and it inherits that term.
+  - The NOISEX-92 babble track is NOT redistributed here in any form. It ships
+    as a download script plus attribution.

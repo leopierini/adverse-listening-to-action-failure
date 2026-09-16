@@ -1,0 +1,22 @@
+Error subtype × slot position — Study 1b descriptive breakdown
+======================================================================
+
+38 files, 23712 rows, 416 utterances. One router: these are ASR-stage
+counts, and every router re-routes the same transcripts.
+
+ALL CONDITIONS
+error_subtype            critical   function      total
+-------------------------------------------------------
+named_entity_error           2795          0       2795
+number_error                 3874        257       4131
+phonetic_similar               37       1374       1411
+semantic_drift               2145      10609      12754
+ALL SUBSTITUTIONS            8851      12240      21091
+
+Chunks with no subtype (annotate_errors.py assigns one to substitutions only):
+delete                       3087       4049       7136
+insert                          0       5755       5755
+
+* = n < 30, report as exploratory (§11 step 5).
+
+Exploratory cells (n < 30): none — every occupied cell is at or above the threshold.

@@ -1,0 +1,19 @@
+# Ambiente di serving — sessione GCP 1, 2026-08-17
+# catturato dalla macchina, non scritto a memoria
+
+## sistema
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+6.12.96+deb13-cloud-amd64
+
+## driver e GPU
+driver_version, name, memory.total [MiB], compute_cap
+610.57.04, NVIDIA A100-SXM4-40GB, 40960 MiB, 8.0
+
+## python e pacchetti
+Python 3.13.5
+vllm 0.27.1
+torch 2.13.0+cu130
+cuda 13.0
+
+## pacchetti di sistema aggiunti (senza questi vLLM non parte)
+nvidia-open, linux-headers-$(uname -r), python3-dev, build-essential

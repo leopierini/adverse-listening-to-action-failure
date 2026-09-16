@@ -1,0 +1,42 @@
+========================================================================
+MODEL      : h4b
+FORMULA    : outcome ~ C(pathway, Treatment(reference='cascade'))*C(degradation, Treatment(reference='clean')) + C(model_family) + snr_20 + snr_10
+ESTIMATOR  : GEE (Binomial family, Exchangeable working correlation, robust SEs)
+CLUSTER    : slurp_id  (416 clusters, 30868 observations)
+DESIGN     : 17 columns, rank 17, smallest singular value 6.543e+00
+NOTE       : no fallback estimator exists; this is the pinned confirmatory specification (tracker §8).
+========================================================================
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                     outcome   No. Observations:                30868
+Model:                                 GEE   No. clusters:                      416
+Method:                        Generalized   Min. cluster size:                  38
+                      Estimating Equations   Max. cluster size:                  76
+Family:                           Binomial   Mean cluster size:                74.2
+Dependence structure:         Exchangeable   Num. iterations:                    12
+Date:                     Fri, 28 Aug 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         01:03:13
+===============================================================================================================================================================================
+                                                                                                                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                                                       0.5619      0.102      5.532      0.000       0.363       0.761
+C(pathway, Treatment(reference='cascade'))[T.omni]                                                              0.0427      0.079      0.540      0.589      -0.112       0.197
+C(degradation, Treatment(reference='clean'))[T.babble]                                                         -0.8413      0.069    -12.155      0.000      -0.977      -0.706
+C(degradation, Treatment(reference='clean'))[T.clipping]                                                       -0.4299      0.047     -9.119      0.000      -0.522      -0.338
+C(degradation, Treatment(reference='clean'))[T.codec]                                                          -0.4555      0.043    -10.619      0.000      -0.540      -0.371
+C(degradation, Treatment(reference='clean'))[T.farfield]                                                       -0.4261      0.039    -10.906      0.000      -0.503      -0.349
+C(degradation, Treatment(reference='clean'))[T.noise]                                                          -0.9590      0.076    -12.562      0.000      -1.109      -0.809
+C(degradation, Treatment(reference='clean'))[T.reverb]                                                         -0.8518      0.076    -11.186      0.000      -1.001      -0.703
+C(model_family)[T.qwen]                                                                                         0.2939      0.048      6.134      0.000       0.200       0.388
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.babble]      -0.0177      0.063     -0.280      0.780      -0.142       0.106
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.clipping]    -0.0337      0.049     -0.683      0.495      -0.131       0.063
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.codec]        0.0040      0.050      0.080      0.936      -0.094       0.102
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.farfield]    -0.0289      0.050     -0.574      0.566      -0.128       0.070
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.noise]        0.1442      0.071      2.020      0.043       0.004       0.284
+C(pathway, Treatment(reference='cascade'))[T.omni]:C(degradation, Treatment(reference='clean'))[T.reverb]      -0.1396      0.072     -1.938      0.053      -0.281       0.002
+snr_20                                                                                                          0.6140      0.037     16.719      0.000       0.542       0.686
+snr_10                                                                                                          0.4618      0.028     16.456      0.000       0.407       0.517
+==============================================================================
+Skew:                         -0.2078   Kurtosis:                      -1.8354
+Centered skew:                -0.3514   Centered kurtosis:              0.4776
+==============================================================================

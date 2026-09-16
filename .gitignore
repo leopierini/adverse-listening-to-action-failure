@@ -1,0 +1,25 @@
+# Python environments — rebuild them from the versions named in README.md
+venv/
+venv312/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Model weights — re-download from HuggingFace
+models/
+
+# Degraded audio bank — derives from SLURP audio (CC BY-NC 4.0) and is fully
+# regenerable:  ./venv/bin/python scripts/corrupt_audio.py --seed 42
+corrupted/
+
+# Source audio: SLURP clips and the NOISEX-92 babble track. Redistribution
+# terms differ from the code's; see the licensing section of README.md.
+dataset/audio/
+dataset/noise/
+
+# Raw sweep data — deposited separately, with a DOI, at submission.
+results/*.jsonl
+results/v028/
+
+logs/
+.DS_Store

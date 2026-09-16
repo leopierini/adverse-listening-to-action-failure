@@ -1,0 +1,41 @@
+========================================================================
+MODEL      : h3
+FORMULA    : outcome ~ phonetic_distance + C(asr_model) + C(degradation) + snr_20 + snr_10 + C(llm_model)
+ESTIMATOR  : GEE (Binomial family, Exchangeable working correlation, robust SEs)
+CLUSTER    : slurp_id  (269 clusters, 21594 observations)
+DESIGN     : 14 columns, rank 14, smallest singular value 1.992e+01
+NOTE       : no fallback estimator exists; this is the pinned confirmatory specification (tracker §8).
+OUTCOME    : a proportion in [0,1], not a 0/1 draw — this is a FRACTIONAL logit
+             (binomial quasi-likelihood with robust SEs; Papke & Wooldridge 1996).
+========================================================================
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:                     outcome   No. Observations:                21594
+Model:                                 GEE   No. clusters:                      269
+Method:                        Generalized   Min. cluster size:                   3
+                      Estimating Equations   Max. cluster size:                 171
+Family:                           Binomial   Mean cluster size:                80.3
+Dependence structure:         Exchangeable   Num. iterations:                    13
+Date:                     Fri, 28 Aug 2026   Scale:                           1.000
+Covariance type:                    robust   Time:                         01:03:10
+===============================================================================================================
+                                                  coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------
+Intercept                                      -0.6554      0.156     -4.193      0.000      -0.962      -0.349
+C(asr_model)[T.whisper-base-mlx]               -0.3635      0.049     -7.406      0.000      -0.460      -0.267
+C(asr_model)[T.whisper-large-v3-turbo]         -0.0034      0.036     -0.096      0.923      -0.073       0.067
+C(degradation)[T.clean]                         0.7505      0.060     12.456      0.000       0.632       0.869
+C(degradation)[T.clipping]                      0.3077      0.038      8.136      0.000       0.234       0.382
+C(degradation)[T.codec]                         0.3753      0.035     10.719      0.000       0.307       0.444
+C(degradation)[T.farfield]                      0.4016      0.041      9.877      0.000       0.322       0.481
+C(degradation)[T.noise]                        -0.0205      0.034     -0.596      0.551      -0.088       0.047
+C(degradation)[T.reverb]                        0.0176      0.037      0.475      0.635      -0.055       0.090
+C(llm_model)[T.Qwen3.5-9B-MLX-8bit]            -0.0380      0.056     -0.684      0.494      -0.147       0.071
+C(llm_model)[T.gemma-4-31B-it-qat-w4a16-ct]     0.0394      0.049      0.804      0.421      -0.057       0.135
+phonetic_distance                              -0.3464      0.158     -2.189      0.029      -0.657      -0.036
+snr_20                                          0.5279      0.040     13.117      0.000       0.449       0.607
+snr_10                                          0.4172      0.032     13.001      0.000       0.354       0.480
+==============================================================================
+Skew:                          0.6037   Kurtosis:                      -0.8980
+Centered skew:                -0.1799   Centered kurtosis:              2.3112
+==============================================================================
